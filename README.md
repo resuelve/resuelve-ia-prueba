@@ -2,7 +2,7 @@
 
 Nos da gusto que quieras ser parte de nuestro equipo, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
 
-Este ejercicio es una oportunidad para que escribas un poco de tu código más limpio que nos muestre cómo solucionas problemas triviales de un ingeniero.
+Este ejercicio es una oportunidad para que escribas un poco de tu código más limpio que nos muestre cómo solucionas un caso básico de negocio.
 
 * Escribe el código como si fuera a producción
 * Asume que tu código pasará por un extenso proceso de _code review_
