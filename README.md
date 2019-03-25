@@ -1,4 +1,19 @@
-# Contexto
+# Prueba Ingeniería Resuelve
+
+Nos da gusto que quieras ser parte de nuestro equipo, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
+
+Este ejercicio es una oportunidad para que escribas un poco de tu código más limpio que nos muestre cómo solucionas problemas triviales de un ingeniero.
+
+* Escribe el código como si fuera a producción
+* Asume que tu código pasará por un extenso proceso de _code review_
+* No nos importa con qué herramienta o lenguaje lo soluciones
+* Puedes apoyarte en cualquier referencia que desees 
+* Puedes usar Python o R para responder estas preguntas. Recuerda documentar adecuadamente tu código.
+* Asegurate de dejar instrucciones claras de cómo ejecutar tu código como si fuera a desplegarse en producción
+
+## Problema
+
+## Contexto
 
 El data set "datos_prestamo.csv" tiene información de una empresa que otorga créditos. Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. Las variables que tenemos son:
 
@@ -45,4 +60,4 @@ Haz las transformaciones que necesites a los datos y desarrolla algún modelo.
 
 ¿Cómo sabes que es un buen modelo?
 
-Puedes usar Python o R para responder estas preguntas. Recuerda documentar adecuadamente tu código.
+
