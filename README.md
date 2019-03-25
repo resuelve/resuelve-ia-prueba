@@ -39,4 +39,7 @@ En el último mes, han llegado muchos más registros de los que puede atender el
 * Haz las transformaciones que necesites a los datos y desarrolla algún modelo.
 * ¿Cómo sabes que es un buen modelo?
 
+## ¿Llegaste aquí por casualidad?
+Si llegaste aquí por casualidad y ya tienes la prueba resuelta, ¡manda tus resultados a edsuarez@resuelve.mx para revisarla y agendar una llamada!
+
 
