@@ -6,9 +6,9 @@ Este ejercicio es una oportunidad para que escribas un poco de tu código más l
 
 * Escribe el código como si fuera a producción
 * Asume que tu código pasará por un extenso proceso de _code review_
-* No nos importa con qué herramienta o lenguaje lo soluciones
 * Puedes apoyarte en cualquier referencia que desees 
-* Puedes usar Python o R para responder estas preguntas. Recuerda documentar adecuadamente tu código.
+* Puedes usar Python o R para responder estas preguntas
+* Recuerda documentar adecuadamente tu código
 * Asegurate de dejar instrucciones claras de cómo ejecutar tu código como si fuera a desplegarse en producción
 
 ## Problema
