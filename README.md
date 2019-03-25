@@ -5,6 +5,7 @@ El data set "datos_prestamo.csv" tiene información de una empresa que otorga cr
 Las variables que tenemos son:
 
 Fecha_registro: El día y hora que el usuario se registró en nuestro sitio web.
+
 Fecha_contacto: El día y hora que un asesor se comunicó con el cliente. Debe ser posterior a la Fecha de registro.
 Id: Identificador que se le asigna al cliente. Debe ser único.
 Genero: Hombre o mujer.
