@@ -11,9 +11,37 @@ Este ejercicio es una oportunidad para que escribas un poco de tu código más l
 * Recuerda documentar adecuadamente tu código
 * Asegurate de dejar instrucciones claras de cómo ejecutar tu código como si fuera a desplegarse en producción
 
-## Problema
+## Problema 1
 
-El data set "datos_prestamo.csv" tiene información de una empresa que otorga créditos. Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. Las variables que tenemos son:
+El conjunto de datos contienen ejemplos de lo que solemos utilizar para resolver problemas reales. Los DS que trabajan en equipos tienen la tarea de cuantificar la actividad de los usuarios. Cómo llevar a los equipos al éxito. Una de las áreas más grandes que nos preocupa es el compromiso que tienen los usuarios con la marca. Utilizando estos datos, tu conocimiento del negocio y potencialmente tus intereses, realiza lo siguiente
+
+Para todos los usuarios que recibieron una notificación, ¿cuál es la diferencia en promedio en transacciones 7 días antes de que llegue la notificación vs. 7 días después de la notificación agrupado por país y grupo de edad.
+
+Cómo ejecutar:
+Ve a http://metabase.resuelve.io/ e inicie sesión con el
+credenciales que te hemos enviado
+
+1. Esto es Metabase, una herramienta de informes de código abierto. Es una alternativa gratuita a herramientas como Tableau, Looker, Microstrategy, PowerBI, etc.
+
+2. Si te sientes confundido, puede leer su guía de inicio aquí:
+https://metabase.com/docs/latest/getting-started.html.
+
+ii. En la base de datos de `Data Warehouse`, tenemos tablas precargadas con datos inspirados en datos de la vida real que tomamos de nuestro día a día. Encontrarás el completo Descripción de los nombres y variables de la tabla al final del desafío.
+También puede ver las tablas y el esquema de la base de datos en Metabase.
+
+iii) Puedes usar la interfaz SQL de Metabase para probar SQL y generar diferentes
+tipos de gráficos
+iv. Crea una nueva "pregunta" y, una vez que estés satisfecho con tu consulta
+y visualización, guarda tu pregunta como "ds_challenge-q1" en tu
+Colección personal
+
+v. Siéntete libre de guardar más preguntas y jugar con Metabase si
+deseas, pero solo se considerará lo que se incluyas en "ds_challenge-q1"
+para evaluación
+
+## Problema 2
+
+Con el data set en el archivo "datos_prestamo.csv" tiene información de una empresa que otorga créditos. Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. Las variables que tenemos son:
 
 * Fecha_registro: El día y hora que el usuario se registró en nuestro sitio web.
 * Fecha_contacto: El día y hora que un asesor se comunicó con el cliente. Debe ser posterior a la Fecha de registro.
