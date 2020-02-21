@@ -13,7 +13,7 @@ Este ejercicio es una oportunidad para que escribas un poco de tu código más l
 
 ## Problema 1
 
-El conjunto de datos contienen ejemplos de lo que solemos utilizar para resolver problemas reales. Los DS que trabajan en equipos tienen la tarea de cuantificar la actividad de los usuarios. Cómo llevar a los equipos al éxito. Una de las áreas más grandes que nos preocupa es el compromiso que tienen los usuarios con la marca. Utilizando estos datos, tu conocimiento del negocio y potencialmente tus intereses, realiza lo siguiente
+Los DS que trabajan en Resuelve tienen entre sus varios objetivos la tarea de cuantificar la actividad de los usuarios. Y así llevar a los equipos al éxito. Una de las áreas más grandes que nos preocupa es el compromiso que tienen los usuarios con la marca. El conjunto de datos que te vamos a proporcionar contienen ejemplos de lo que solemos utilizar para resolver problemas reales.  Utilizando estos datos, tu conocimiento del negocio y potencialmente tus intereses, realiza lo siguiente
 
 Para todos los usuarios que recibieron una notificación, ¿cuál es la diferencia en promedio en transacciones 7 días antes de que llegue la notificación vs. 7 días después de la notificación agrupado por país y grupo de edad.
 
@@ -32,8 +32,7 @@ También puede ver las tablas y el esquema de la base de datos en Metabase.
 iii) Puedes usar la interfaz SQL de Metabase para probar SQL y generar diferentes
 tipos de gráficos
 iv. Crea una nueva "pregunta" y, una vez que estés satisfecho con tu consulta
-y visualización, guarda tu pregunta como "ds_challenge-q1" en tu
-Colección personal
+y visualización, guarda tu pregunta como "ds_challenge-q1" en tu Colección personal
 
 v. Siéntete libre de guardar más preguntas y jugar con Metabase si
 deseas, pero solo se considerará lo que se incluyas en "ds_challenge-q1"
@@ -66,6 +65,52 @@ En el último mes, han llegado muchos más registros de los que puede atender el
 * Si la respuesta fue sí, ¿qué tipo de probema es según los datos que tienes? (Supervisado o No Supervisado)
 * Haz las transformaciones que necesites a los datos y desarrolla algún modelo.
 * ¿Cómo sabes que es un buen modelo?
+
+## El Dataset
+
+1. devices.csv
+una tabla de dispositivos asociados con un usuario
+- marca: cadena correspondiente a la marca del teléfono
+- user_id: cadena que identifica de forma exclusiva al usuario
+2. users.csv
+una tabla de datos de usuario
+- user_id: cadena que identifica de forma exclusiva al usuario
+- birth_year: número entero correspondiente al año de nacimiento del usuario
+- país: cadena de dos letras correspondiente al país de residencia del usuario
+- ciudad: dos cadenas correspondientes a la ciudad de residencia del usuario
+- created_date: fecha y hora correspondiente a la fecha de creación del usuario
+- user_settings_crypto_unlocked: entero que indica si el usuario ha desbloqueado el cifradomonedas en la aplicación
+- plan: cadena que indica en qué plan está el usuario
+- atributos_notificaciones_marketing_push: flotante que indica si el usuario ha aceptado recibirnotificaciones push de marketing
+- atributos_notificaciones_marketing_email: flotante que indica si el usuario ha aceptado recibirnotificaciones de marketing por correo electrónico
+- num_contacts: número entero correspondiente al número de contactos que el usuario tiene en Resuelve
+- num_referrals: número entero correspondiente al número de usuarios referidos por el usuario seleccionado
+- num_successful_referrals: número entero que corresponde al número de usuarios con éxitoreferido por el usuario seleccionado (significa con éxito los usuarios que realmente han instalado la aplicacióny pueden usar el producto)
+
+3. notificaciones.csv
+una tabla de notificaciones que ha recibido un usuario
+- motivo: cadena que indica el propósito de la notificación
+- canal: cadena que indica cómo se ha notificado al usuario
+- estado: cadena que indica el estado de la notificación
+- user_id: cadena que identifica de forma exclusiva al usuario
+- created_date: fecha y hora que indica cuándo se envió la notificación
+4. transacciones.csv
+una tabla con las transacciones que realizó un usuario
+- transaction_id: cadena que identifica de forma exclusiva la transacción
+- transacciones_tipo: cadena que indica el tipo de transacción
+- transacciones_currencia: cadena que indica la moneda de la transacción
+- amount_usd: flotante correspondiente al monto de la transacción en USD
+- transacciones_estado: cadena que indica el estado de una transacción
+- COMPLETADO: la transacción se completó y se cambió el saldo del usuario
+- RECHAZADA / FALLADA: la transacción se rechazó por algún motivo, generalmente corresponde asaldo insuficiente
+- REVERTED: la transacción asociada se completó primero pero luego se revertió más tarde en el tiempo potencialmente debido a que el cliente se comunica con Resuelve
+- ea_cardholderpresence: cadena que indica si el titular de la tarjeta estaba presente cuando la transacciónsucedió
+- ea_merchant_mcc: flotante correspondiente al Código de categoría de comerciante (MCC)
+- ea_merchant_city: cadena correspondiente a la ciudad del comerciante
+- ea_merchant_country: cadena correspondiente al país del comerciante
+- direction: cadena que indica la dirección de la transacción
+- user_id: cadena que identifica de forma exclusiva al usuario
+- created_date: fecha y hora correspondiente a la fecha de creación de la transacción
 
 ## ¿Llegaste aquí por casualidad?
 Si llegaste aquí por casualidad y ya tienes la prueba resuelta, ¡manda tus resultados a edsuarez@resuelve.mx para revisarla y agendar una llamada!
