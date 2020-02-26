@@ -68,7 +68,7 @@ En el último mes, han llegado muchos más registros de los que puede atender el
 
 ## El Dataset
 
-1. devices.csv
+1. devices
 una tabla de dispositivos asociados con un usuario
 - marca: cadena correspondiente a la marca del teléfono
 - user_id: cadena que identifica de forma exclusiva al usuario
@@ -87,14 +87,14 @@ una tabla de datos de usuario
 - num_referrals: número entero correspondiente al número de usuarios referidos por el usuario seleccionado
 - num_successful_referrals: número entero que corresponde al número de usuarios con éxitoreferido por el usuario seleccionado (significa con éxito los usuarios que realmente han instalado la aplicacióny pueden usar el producto)
 
-3. notificaciones.csv
+3. notificaciones
 una tabla de notificaciones que ha recibido un usuario
 - motivo: cadena que indica el propósito de la notificación
 - canal: cadena que indica cómo se ha notificado al usuario
 - estado: cadena que indica el estado de la notificación
 - user_id: cadena que identifica de forma exclusiva al usuario
 - created_date: fecha y hora que indica cuándo se envió la notificación
-4. transacciones.csv
+4. transacciones
 una tabla con las transacciones que realizó un usuario
 - transaction_id: cadena que identifica de forma exclusiva la transacción
 - transacciones_tipo: cadena que indica el tipo de transacción
