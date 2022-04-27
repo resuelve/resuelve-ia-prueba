@@ -127,6 +127,6 @@ una tabla con las transacciones que realizó un usuario
 #### **los campos que inician con '__' son metadatos que no se toman en cuenta**
 
 ## ¿Llegaste aquí por casualidad?
-Si llegaste aquí por casualidad y ya tienes la prueba resuelta, ¡manda tus resultados a edsuarez@resuelve.mx para revisarla y agendar una llamada!
+Si llegaste aquí por casualidad y ya tienes la prueba resuelta, ¡manda tus resultados a aperezc@resuelve.mx para revisarla y agendar una llamada!
 
 
