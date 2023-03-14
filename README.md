@@ -42,7 +42,7 @@ para evaluación
 
 Con el data set en el archivo "datos_prestamo.csv" tiene información de una empresa que otorga créditos. Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. Las variables que tenemos son:
 
-### Descripición de la base de datos (Problema 1)
+### Descripición de la base de datos (Problema 2)
 
 * Fecha_registro: El día y hora que el usuario se registró en nuestro sitio web.
 * Fecha_contacto: El día y hora que un asesor se comunicó con el cliente. Debe ser posterior a la Fecha de registro.
