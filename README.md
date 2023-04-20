@@ -1,4 +1,4 @@
-# Prueba IA Resuelve
+# Prueba DA & IA Resuelve
 
 Nos da gusto que quieras ser parte de nuestro equipo, si quieres saber un poco más sobre Resuelve Ingeniería y el equipo puedes ver [aquí](https://github.com/resuelve/nuestro-equipo).
 
@@ -13,36 +13,16 @@ Este ejercicio es una oportunidad para que escribas un poco de tu código más l
 
 ## Problema 1
 
-Los DS que trabajan en Resuelve tienen entre sus varios objetivos la tarea de cuantificar la actividad de los usuarios. Y así llevar a los equipos al éxito. Una de las áreas más grandes que nos preocupa es el compromiso que tienen los usuarios con la marca. El conjunto de datos que te vamos a proporcionar contienen ejemplos de lo que solemos utilizar para resolver problemas reales.  Utilizando estos datos, tu conocimiento del negocio y potencialmente tus intereses, realiza lo siguiente
+Con el data set en el archivo "datos_prestamo.csv" tiene información de una empresa que otorga créditos. 
+Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. 
+En el último mes, han llegado muchos más registros de los que puede atender el equipo de crédito. 
+Alguien sugirió crear un modelo para poder decidir a quien prestarle.
 
-Para todos los usuarios que recibieron una notificación, ¿cuál es la diferencia en promedio en transacciones 7 días antes de que llegue la notificación vs. 7 días después de la notificación agrupado por país y grupo de edad.
+* ¿Crees que sea una buena idea? ¿ Por qué?
+* Si la respuesta fue sí, ¿qué tipo de probema es según los datos que tienes? (Supervisado o No Supervisado)
+* Haz las transformaciones que necesites a los datos y desarrolla algún modelo.
 
-Cómo ejecutar:
-Ve a http://metabase.resuelve.io/ e inicie sesión con el
-credenciales que te hemos enviado
-
-1. Esto es Metabase, una herramienta de informes de código abierto. Es una alternativa gratuita a herramientas como Tableau, Looker, Microstrategy, PowerBI, etc.
-
-2. Si te sientes confundido, puede leer su guía de inicio aquí:
-https://metabase.com/docs/latest/getting-started.html.
-
-ii. En la base de datos de `Data Warehouse`, tenemos tablas precargadas con datos inspirados en datos de la vida real que tomamos de nuestro día a día. Encontrarás el completo Descripción de los nombres y variables de la tabla al final del desafío.
-También puede ver las tablas y el esquema de la base de datos en Metabase.
-
-iii) Puedes usar la interfaz SQL de Metabase para probar SQL y generar diferentes
-tipos de gráficos
-iv. Crea una nueva "pregunta" y, una vez que estés satisfecho con tu consulta
-y visualización, guarda tu pregunta como "ds_challenge-q1" en tu Colección personal
-
-v. Siéntete libre de guardar más preguntas y jugar con Metabase si
-deseas, pero solo se considerará lo que se incluyas en "ds_challenge-q1"
-para evaluación
-
-## Problema 2
-
-Con el data set en el archivo "datos_prestamo.csv" tiene información de una empresa que otorga créditos. Hasta ahora, hay un grupo de personas (el equipo de crédito) que estudia registro a registro y decide si prestarle o no. Las variables que tenemos son:
-
-### Descripición de la base de datos (Problema 2)
+Las variables que tenemos son:
 
 * Fecha_registro: El día y hora que el usuario se registró en nuestro sitio web.
 * Fecha_contacto: El día y hora que un asesor se comunicó con el cliente. Debe ser posterior a la Fecha de registro.
@@ -61,14 +41,31 @@ Con el data set en el archivo "datos_prestamo.csv" tiene información de una emp
 * Estatus_prestamo: Si le otorgaron el crédito.
 * Asesor_asignado: El nombre del asesor que atenderá al cliente si se le otorgó el crédito.
 
-En el último mes, han llegado muchos más registros de los que puede atender el equipo de crédito. Alguien sugirió crear un modelo para poder decidir a quien prestarle.
-
-* ¿Crees que sea una buena idea? ¿ Por qué?
-* Si la respuesta fue sí, ¿qué tipo de probema es según los datos que tienes? (Supervisado o No Supervisado)
-* Haz las transformaciones que necesites a los datos y desarrolla algún modelo.
+En base a los resultados obtenidos
 * ¿Cómo sabes que es un buen modelo?
+* Si fueras el líder del área de crédito, ¿Sigues con tu estructura actual ó utilizas el modelo obtenido? ¿Por qué?
 
-## El Dataset (Problema 1)
+## Problema 2
+
+Los analístas que trabajan en Resuelve tienen entre sus objetivos la tarea de cuantificar la actividad de los usuarios. Y así llevar a los equipos al éxito. Una de las áreas más grandes que nos preocupa es el compromiso que tienen los usuarios con la marca. 
+El conjunto de datos que te vamos a proporcionar contienen ejemplos de lo que solemos utilizar para resolver problemas reales.  
+Utilizando estos datos, tu conocimiento del negocio y potencialmente tus intereses, realiza lo siguiente:
+
+Para todos los usuarios que recibieron una notificación, ¿cuál es la diferencia en promedio en transacciones 7 días antes de que llegue la notificación vs. 7 días después de la notificación? Detallando la información por país y grupo de edad.
+
+Cómo ejecutar:
+i. Ve a [Metabase](http://metabase.resuelve.io/) e inicie sesión con las credenciales que te hemos enviado.
+Esto es Metabase, una herramienta de informes de código abierto. Es una alternativa gratuita a herramientas como Tableau, Looker, Microstrategy, PowerBI, etc. Si te sientes confundido, puede leer su guía de inicio [aquí](https://metabase.com/docs/latest/getting-started.html).
+
+ii. En la base de datos de `Prueba DA & IA`, tenemos tablas precargadas con datos inspirados en datos de la vida real que tomamos de nuestro día a día. Encontrarás el completo Descripción de los nombres y variables de la tabla al final del desafío. También puede ver las tablas y el esquema de la base de datos en Metabase.
+
+iii. Puedes usar la interfaz SQL de Metabase para probar SQL y generar diferentes tipos de gráficos
+
+iv. Crea una nueva "pregunta" y, una vez que estés satisfecho con tu consulta y visualización, guarda tu pregunta como "ds_challenge-q1" en tu Colección personal
+
+v. Siéntete libre de guardar más preguntas y jugar con Metabase si deseas, pero solo se considerará lo que se incluyas en "ds_challenge-q1" para tu evaluación
+
+### Overview de las Tablas 
 
 1. devices
 
