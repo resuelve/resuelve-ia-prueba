@@ -68,7 +68,7 @@ v. Siéntete libre de guardar más preguntas si deseas, pero solo se considerar�
 
 ### Overview de las Tablas 
 
-1. `users` - Contiene datos del usuario
+1. `panoply.users` - Contiene datos del usuario
 
         - user_id: cadena que identifica de forma exclusiva al usuario
         - birth_year: número entero correspondiente al año de nacimiento del usuario
@@ -83,12 +83,12 @@ v. Siéntete libre de guardar más preguntas si deseas, pero solo se considerar�
         - num_referrals: número entero correspondiente al número de usuarios referidos por el usuario seleccionado
         - num_successful_referrals: número entero que corresponde al número de usuarios con éxitoreferido por el usuario seleccionado (significa con éxito los usuarios que realmente han instalado la aplicacióny pueden usar el producto)
 
-2. `devices` - Contiene los dispositivos asociados con un usuario
+2. `panoply.devices` - Contiene los dispositivos asociados con un usuario
 
         - brand: cadena correspondiente a la marca del teléfono
         - user_id: cadena que identifica de forma exclusiva al usuario
 
-3. `notifications` - Contiene notificaciones que ha recibido un usuario
+3. `panoply.notifications` - Contiene notificaciones que ha recibido un usuario
 
         - reason: cadena que indica el propósito de la notificación
         - channel: cadena que indica cómo se ha notificado al usuario
@@ -96,7 +96,7 @@ v. Siéntete libre de guardar más preguntas si deseas, pero solo se considerar�
         - user_id: cadena que identifica de forma exclusiva al usuario
         - created_date: fecha y hora que indica cuándo se envió la notificación
 
-4. `transactions` - Contiene las transacciones que realizó un usuario
+4. `panoply.transactions` - Contiene las transacciones que realizó un usuario
 
         - transaction_id: cadena que identifica de forma exclusiva la transacción
         - transactions_type: cadena que indica el tipo de transacción
