@@ -116,6 +116,9 @@ v. Siéntete libre de guardar más preguntas si deseas, pero solo se considerar�
 
 #### **los campos que inician con '__' son metadatos que no se toman en cuenta**
 
+Ejemplo de como iniciar a consultar en Metabase:
+<img width="210" alt="Captura de pantalla 2024-03-05 a la(s) 13 55 55" src="https://github.com/resuelve/resuelve-ia-prueba/assets/57011424/fcb595ac-3a69-4ba9-a7ee-859f77beab99">
+
 ## ¿Llegaste aquí por casualidad?
 Si llegaste aquí por casualidad y ya tienes la prueba resuelta, ¡manda tus resultados a aperezc@resuelve.mx para revisarla y agendar una llamada!
 
